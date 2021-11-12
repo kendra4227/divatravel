@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+}
+
+/* The Banner image */
+.banner-img {
+  /* Use "linear-gradient" to add a darken background effect to the image (divatravel.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/divatravel.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+/* Place text in the middle of the image */
+.banner-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  float: right;
+}
+
+.topnav {
+    background-color: #05004e;
+    overflow: hidden;
+  }
+
+.topnav a{
+    float:right;
+    color:#FB7777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.topnav a:hover {
+    background-color: #ffcccc;
+    color: #05004e;
+  }
