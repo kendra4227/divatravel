@@ -1,6 +1,13 @@
 body, html {
     height: 100%;
 }
+.logo{
+  border-radius: 50%;
+  height:100px;
+  width:5%;
+  border: blue;
+
+}
 
 /* The Banner image */
 .banner-img {
@@ -27,6 +34,9 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
   float: right;
+  font-family: 'Praise', cursive;
+  display: block;
+  margin: 0 auto;
 }
 
 .topnav {
@@ -46,4 +56,48 @@ body, html {
 .topnav a:hover {
     background-color: #ffcccc;
     color: #05004e;
+  }
+
+  .input-group{
+    padding: 20px 20px 45px 100px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    
+  }
+  .input-group input{
+    height: 50px;
+    width: 50%;
+    
+    
+  }
+ #search{
+   margin: 0 auto;
+   display: block;
+   
+ }
+  .input-group button{
+    margin: 0 auto;
+    height: 50px;
+    width: 100px;
+    color: #ffcccc;
+    background-color:#05004e;
+  }
+  .input-group button:hover{
+    color: whitesmoke;
+  }
+  .container-box {
+    display: flex;
+  
+    
+}
+  .box{
+    flex: 1;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    background-color: #F5F5F7;
+    border-radius: 20%;
+    margin-right: 20px;
+    
+
   }
