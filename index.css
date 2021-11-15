@@ -101,3 +101,16 @@ body, html {
     
 
   }
+  .container-box1{
+    display: flex;
+  }
+  .trip{
+    flex: 1;
+    text-align: center;
+
+  }
+  .trip img{
+    padding: 20px ;
+    height: 350px;
+    width: auto;
+  }
